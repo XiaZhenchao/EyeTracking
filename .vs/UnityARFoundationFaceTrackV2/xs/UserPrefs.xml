@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{172C4AB7-7D7A-BDB4-91A1-CBA463FE2D26}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EyeTracker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/EyeTracker.cs" Line="69" Column="43" />
+      <File FileName="Assets/Scripts/TextContent.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnityARFoundationFaceTrackV2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EyeTracker.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="953c6dc9-8fc4-48f5-9b23-ad89e7dcfda1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
