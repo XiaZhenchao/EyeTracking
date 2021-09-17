@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{282371E6-4292-A04F-BFF4-5F68A1081E16}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EyeTracker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlacementOfObjectInPlane.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EyeTracker.cs" Line="175" Column="26" />
+      <File FileName="Assets/Scripts/Movement.cs" />
+      <File FileName="Assets/Scripts/Collision.cs" />
+      <File FileName="Assets/Scripts/EyeTracking.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EyeTracking-master copy" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EyeTracker.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="61e36163-e72c-43a9-8e82-4d188e23a8e6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -17998,7 +17998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m1FA84106402281BA5E5E
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARPlanesChangedEventArgs>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mF7F5537A831519D209E0554BCF54BDD62FFA1022_gshared (Action_1_t5A0A4549E7215F9A5DA4C7A647D06B3689691A8F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m880EA857B5BE1BA69B738E316BD674CC6B294F6C_gshared (Action_1_t5A0A4549E7215F9A5DA4C7A647D06B3689691A8F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);

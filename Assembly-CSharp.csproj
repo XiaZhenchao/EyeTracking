@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3531A902-BBF1-B8FD-4DDD-7BEEE35A45DE}</ProjectGuid>
+    <ProjectGuid>{9663F5D5-28FB-4A23-EA97-B58C95210CFD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\EnvironmentProbeVisualizer.cs" />
     <Compile Include="Assets\Scripts\EyeData.cs" />
     <Compile Include="Assets\Scripts\EyeTracker.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="Assets\Scripts\FollowCam.cs" />
     <Compile Include="Assets\Scripts\HeadRotation.cs" />
     <Compile Include="Assets\Scripts\ListenerRotation.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\PlacementOfObjectInPlane.cs" />
     <Compile Include="Assets\Scripts\RotateCane.cs" />
     <Compile Include="Assets\Scripts\TextContent.cs" />
     <Reference Include="UnityEngine">
@@ -602,85 +605,85 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.1f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.FaceTracking">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.Editor">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/EyeTracking-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/zhenchaoxia/Desktop/MRCaneProject/CaneMeasure/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

@@ -6,7 +6,10 @@ public class FollowCam : MonoBehaviour
 {
     public GameObject follow;
     float positionY;
-
+    public GameObject temp;
+    Quaternion HeadRotation;
+    GameObject[] RightBar;
+   
     void Awake()
     {
         positionY = follow.transform.position.y + 0.1f;
@@ -14,17 +17,27 @@ public class FollowCam : MonoBehaviour
 
     void Update()
     {
-        gameObject.transform.position = new Vector3(follow.transform.position.x, positionY, follow.transform.position.z);
+        RightBar = GameObject.FindGameObjectsWithTag("RightBar");
+        //HeadRotation = follow.transform.rotation;
+        //HeadRotation = temp.arFace.leftEye.transform.rotation;
+        //gameObject.transform.position = new Vector3(-follow.transform.position.x, positionY, -follow.transform.position.z);
         Debug.Log("gameObjectposition: " +gameObject.transform.position);
-        var rotationVector = follow.transform.rotation.eulerAngles;
-        rotationVector.z = 0f;
-        rotationVector.x = 0f;
+        //var rotationVector = follow.transform.rotation.eulerAngles;
+        //rotationVector.z = 0f;
+        //rotationVector.x = 0f;
         //gameObject.transform.Rotate(0,rotationVector.y,0);
-        gameObject.transform.rotation = follow.transform.rotation;
-        rotationVector.y = 0f;
-        Debug.Log("rotationVector: "+ rotationVector);
-        Debug.Log("rotationVector.x: ");
-        Debug.Log("rotationVector.y: ");
-        Debug.Log("rotationVector.z: ");
+        //HeadRotation.x = -follow.transform.rotation.x;
+        //HeadRotation.z = -follow.transform.rotation.z;
+        gameObject.transform.rotation = HeadRotation;
+        //rotationVector.y = 0f;
+        foreach (GameObject bar in RightBar)
+        {
+            if (bar.transform.position.z == gameObject.transform.position.z
+                && (gameObject.transform.position.x - bar.transform.position.x) < 1)
+            {
+                bar.GetComponent<Renderer>().material.color = Color.red;
+            }
+        }
+
     }       
 }

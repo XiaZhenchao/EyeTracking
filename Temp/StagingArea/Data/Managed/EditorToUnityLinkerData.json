@@ -378,15 +378,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ReflectionProbe",
-            "fullManagedTypeName": "UnityEngine.ReflectionProbe",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/EyeTracking.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Collider",
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
@@ -494,7 +485,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "FollowCam",
+            "fullManagedTypeName": "PlacementOfObjectInPlane",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -502,13 +493,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TextContent",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -523,20 +507,6 @@
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARCameraManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.AREnvironmentProbe",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.AREnvironmentProbeManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -558,6 +528,27 @@
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARInputManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlane",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer",
             "moduleName": "",
             "usedInScenes": []
         },

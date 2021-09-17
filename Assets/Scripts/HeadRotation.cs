@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class HeadRotation : MonoBehaviour
 {
+    public GameObject testfollow;
    
 }

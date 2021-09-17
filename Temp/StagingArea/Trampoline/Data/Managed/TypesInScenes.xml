@@ -35,7 +35,6 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.ReflectionProbe" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
@@ -48,18 +47,18 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="EyeTracker" preserve="nothing"/>
-		<type fullname="FollowCam" preserve="nothing"/>
+		<type fullname="PlacementOfObjectInPlane" preserve="nothing"/>
 		<type fullname="TextContent" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraManager" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.AREnvironmentProbe" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.AREnvironmentProbeManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARFace" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARFaceManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARInputManager" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.ARFoundation.ARPlane" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneManager" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPoseDriver" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSessionOrigin" preserve="nothing"/>

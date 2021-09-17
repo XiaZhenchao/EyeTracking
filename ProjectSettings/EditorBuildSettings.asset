@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FaceTrackingMesh.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/PlaneTracking.unity
+    guid: 8dd4dc61d9dc74b4883bf95d9702a8f5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3a02cf5c5159146848bdbbebb624a980,
       type: 2}

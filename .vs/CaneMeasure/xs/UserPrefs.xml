@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9663F5D5-28FB-4A23-EA97-B58C95210CFD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EyeTracker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/EyeTracker.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CaneMeasure" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EyeTracker.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e1e6f869-5e79-435a-bef8-96508ad8d041" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

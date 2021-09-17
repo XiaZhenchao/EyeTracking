@@ -106,10 +106,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
 
-		//System.String UnityEngine.Application::get_persistentDataPath()
-		void Register_UnityEngine_Application_get_persistentDataPath();
-		Register_UnityEngine_Application_get_persistentDataPath();
-
 		//System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
 		void Register_UnityEngine_Application_set_targetFrameRate();
 		Register_UnityEngine_Application_set_targetFrameRate();
@@ -714,6 +710,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_Find();
 		Register_UnityEngine_GameObject_Find();
 
+		//UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
+		void Register_UnityEngine_GameObject_FindGameObjectsWithTag();
+		Register_UnityEngine_GameObject_FindGameObjectsWithTag();
+
 		//UnityEngine.Transform UnityEngine.GameObject::get_transform()
 		void Register_UnityEngine_GameObject_get_transform();
 		Register_UnityEngine_GameObject_get_transform();
@@ -885,6 +885,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::GetButtonDown(System.String)
 		void Register_UnityEngine_Input_GetButtonDown();
 		Register_UnityEngine_Input_GetButtonDown();
+
+		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyInt();
+		Register_UnityEngine_Input_GetKeyInt();
 
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();
@@ -1069,6 +1073,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Material::EnableKeyword(System.String)
 		void Register_UnityEngine_Material_EnableKeyword();
 		Register_UnityEngine_Material_EnableKeyword();
+
+		//System.Void UnityEngine.Material::GetColorImpl_Injected(System.Int32,UnityEngine.Color&)
+		void Register_UnityEngine_Material_GetColorImpl_Injected();
+		Register_UnityEngine_Material_GetColorImpl_Injected();
+
+		//System.Void UnityEngine.Material::SetColorImpl_Injected(System.Int32,UnityEngine.Color&)
+		void Register_UnityEngine_Material_SetColorImpl_Injected();
+		Register_UnityEngine_Material_SetColorImpl_Injected();
 
 		//System.Void UnityEngine.Material::SetFloatImpl(System.Int32,System.Single)
 		void Register_UnityEngine_Material_SetFloatImpl();
@@ -1310,6 +1322,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 		Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 
+		//UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle_Injected(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
+		Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
+
 		//UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type)
 		void Register_UnityEngine_Object_FindObjectsOfType();
 		Register_UnityEngine_Object_FindObjectsOfType();
@@ -1445,6 +1461,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.QualitySettings
 
 	//Start Registrations for type : UnityEngine.Quaternion
+
+		//System.Void UnityEngine.Quaternion::AngleAxis_Injected(System.Single,UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Quaternion_AngleAxis_Injected();
+		Register_UnityEngine_Quaternion_AngleAxis_Injected();
 
 		//System.Void UnityEngine.Quaternion::Internal_FromEulerRad_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_Internal_FromEulerRad_Injected();
@@ -1618,6 +1638,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Renderer_set_enabled();
 		Register_UnityEngine_Renderer_set_enabled();
 
+		//UnityEngine.Material UnityEngine.Renderer::GetMaterial()
+		void Register_UnityEngine_Renderer_GetMaterial();
+		Register_UnityEngine_Renderer_GetMaterial();
+
 	//End Registrations for type : UnityEngine.Renderer
 
 	//Start Registrations for type : UnityEngine.Rendering.CommandBuffer
@@ -1753,6 +1777,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Screen::get_dpi()
 		void Register_UnityEngine_Screen_get_dpi();
 		Register_UnityEngine_Screen_get_dpi();
+
+		//System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
+		void Register_UnityEngine_Screen_set_sleepTimeout();
+		Register_UnityEngine_Screen_set_sleepTimeout();
 
 		//UnityEngine.ScreenOrientation UnityEngine.Screen::GetScreenOrientation()
 		void Register_UnityEngine_Screen_GetScreenOrientation();
@@ -2241,6 +2269,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::InverseTransformPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_InverseTransformPoint_Injected();
 		Register_UnityEngine_Transform_InverseTransformPoint_Injected();
+
+		//System.Void UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)
+		void Register_UnityEngine_Transform_RotateAroundInternal_Injected();
+		Register_UnityEngine_Transform_RotateAroundInternal_Injected();
 
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();

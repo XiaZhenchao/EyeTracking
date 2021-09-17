@@ -20,22 +20,22 @@ IL2CPP_EXTERN_C_END
 
 
 
-// 0x00000001 System.Void EyeData::.ctor()
+// 0x00000001 System.Void Collision::OnCollisionEnter(UnityEngine.Collision)
+extern void Collision_OnCollisionEnter_m432C4835A2FF76C4E583ECF1C23A7116BD976BE9 ();
+// 0x00000002 System.Void Collision::.ctor()
+extern void Collision__ctor_m516E7001824989B035C2588F8CD56A1218EC28BF ();
+// 0x00000003 System.Void EyeData::.ctor()
 extern void EyeData__ctor_m7D42DE4415CB2EF3415638AAD4F6F3AF923D4958 ();
-// 0x00000002 System.Void EyeTracker::Awake()
+// 0x00000004 System.Void EyeTracker::Awake()
 extern void EyeTracker_Awake_m54A20B34D9CFAB9A2A03ECC58A76A73420542898 ();
-// 0x00000003 System.Void EyeTracker::OnEnable()
+// 0x00000005 System.Void EyeTracker::OnEnable()
 extern void EyeTracker_OnEnable_mDB475A76F5D71784A3EF31E933AC0B09D3BA4205 ();
-// 0x00000004 System.Void EyeTracker::OnDisable()
+// 0x00000006 System.Void EyeTracker::OnDisable()
 extern void EyeTracker_OnDisable_m66C55BDEB8F7522F564CAAAF5C35EC91A47A44B7 ();
-// 0x00000005 System.Void EyeTracker::OnUpdated(UnityEngine.XR.ARFoundation.ARFaceUpdatedEventArgs)
+// 0x00000007 System.Void EyeTracker::OnUpdated(UnityEngine.XR.ARFoundation.ARFaceUpdatedEventArgs)
 extern void EyeTracker_OnUpdated_mF3BD6A7F4A1F0268CA6B4551FC604AA0F4596B64 ();
-// 0x00000006 System.Void EyeTracker::SetVisibility(System.Boolean)
+// 0x00000008 System.Void EyeTracker::SetVisibility(System.Boolean)
 extern void EyeTracker_SetVisibility_m63966D6BFE77487A6FFB32C6FDC0D8149C28BE7C ();
-// 0x00000007 System.Void EyeTracker::Save()
-extern void EyeTracker_Save_m02518FD99AE7787157CE35B7C0E62A06CB26297F ();
-// 0x00000008 System.Void EyeTracker::Load()
-extern void EyeTracker_Load_mE53B8326BFF92FA989CC690194FAB15E44B8D233 ();
 // 0x00000009 System.Void EyeTracker::.ctor()
 extern void EyeTracker__ctor_mADB9C25EF0F9FC27B15B549661138F1A8BA75200 ();
 // 0x0000000A System.Void EyeTrackContainer::.ctor()
@@ -70,36 +70,48 @@ extern void ListenerRotation_headAnglePlanB_m5C867ACB42D93FB5AB82CB575DEF79ADCC7
 extern void ListenerRotation_headAnglePlanC_m9B2964A09043C25A0C9239D984A6F7EC706BCC43 ();
 // 0x00000019 System.Void ListenerRotation::.ctor()
 extern void ListenerRotation__ctor_m176EAE76B20444C469FB50C22911797C269E3A90 ();
-// 0x0000001A System.Void RotateCane::EnableGyro()
+// 0x0000001A System.Void Movement::Update()
+extern void Movement_Update_m52C5E564F403608D8AF654430FD64687E5AF6548 ();
+// 0x0000001B System.Void Movement::.ctor()
+extern void Movement__ctor_m1611A5910E25AEB0A8B91660D64BABA1A91987B4 ();
+// 0x0000001C System.Void PlacementOfObjectInPlane::Start()
+extern void PlacementOfObjectInPlane_Start_mA5B0A9D960630D0D496232037695AD56E8749731 ();
+// 0x0000001D System.Void PlacementOfObjectInPlane::Update()
+extern void PlacementOfObjectInPlane_Update_m368C76A2A43036C25C91541E803025D13007F6C4 ();
+// 0x0000001E System.Void PlacementOfObjectInPlane::PlaneChanged(UnityEngine.XR.ARFoundation.ARPlanesChangedEventArgs)
+extern void PlacementOfObjectInPlane_PlaneChanged_mD233C95C42309BAA0A01966617BDE53BB2DB432F ();
+// 0x0000001F System.Void PlacementOfObjectInPlane::.ctor()
+extern void PlacementOfObjectInPlane__ctor_m1BD65022679E714EA800BC70F1999DAA728CB57B ();
+// 0x00000020 System.Void RotateCane::EnableGyro()
 extern void RotateCane_EnableGyro_mA3CEE74D23628227D3A12559840B94328637B7A6 ();
-// 0x0000001B System.Void RotateCane::Update()
+// 0x00000021 System.Void RotateCane::Update()
 extern void RotateCane_Update_mB925431C9BE295A0D1F53756A165358DBE9661D4 ();
-// 0x0000001C System.Void RotateCane::.ctor()
+// 0x00000022 System.Void RotateCane::.ctor()
 extern void RotateCane__ctor_m73006A9473C13EA2EEA8E3236DFB2C18F3CA1AE7 ();
-// 0x0000001D System.Void TextContent::Start()
+// 0x00000023 System.Void TextContent::Start()
 extern void TextContent_Start_m03E7FB505803F9CEF14736D84A4311AFDDECD025 ();
-// 0x0000001E System.Void TextContent::Update()
+// 0x00000024 System.Void TextContent::Update()
 extern void TextContent_Update_mE82FBE8C6D558AC96A8ABDE07BE25593A5EDBE19 ();
-// 0x0000001F System.Void TextContent::.ctor()
+// 0x00000025 System.Void TextContent::.ctor()
 extern void TextContent__ctor_mDD9E3989ADE7033E9090A2F2F758922EEA85679F ();
-// 0x00000020 UnityEngine.ReflectionProbe UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::get_reflectionProbe()
+// 0x00000026 UnityEngine.ReflectionProbe UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::get_reflectionProbe()
 extern void EnvironmentProbeVisualizer_get_reflectionProbe_m699337A1FA075E1C5883420953F9F95C3AC4483D ();
-// 0x00000021 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::set_reflectionProbe(UnityEngine.ReflectionProbe)
+// 0x00000027 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::set_reflectionProbe(UnityEngine.ReflectionProbe)
 extern void EnvironmentProbeVisualizer_set_reflectionProbe_mF0C217876D0822CEC7C45CC0B4F90AEEDCE6E246 ();
-// 0x00000022 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::Update()
+// 0x00000028 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::Update()
 extern void EnvironmentProbeVisualizer_Update_m23455585A83DB4D27356BCE38A7C7A18716CCA59 ();
-// 0x00000023 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::.ctor()
+// 0x00000029 System.Void UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer::.ctor()
 extern void EnvironmentProbeVisualizer__ctor_mB645BDCBF89D1091EDC7D96F7054DCB7FF1F6A95 ();
-static Il2CppMethodPointer s_methodPointers[35] = 
+static Il2CppMethodPointer s_methodPointers[41] = 
 {
+	Collision_OnCollisionEnter_m432C4835A2FF76C4E583ECF1C23A7116BD976BE9,
+	Collision__ctor_m516E7001824989B035C2588F8CD56A1218EC28BF,
 	EyeData__ctor_m7D42DE4415CB2EF3415638AAD4F6F3AF923D4958,
 	EyeTracker_Awake_m54A20B34D9CFAB9A2A03ECC58A76A73420542898,
 	EyeTracker_OnEnable_mDB475A76F5D71784A3EF31E933AC0B09D3BA4205,
 	EyeTracker_OnDisable_m66C55BDEB8F7522F564CAAAF5C35EC91A47A44B7,
 	EyeTracker_OnUpdated_mF3BD6A7F4A1F0268CA6B4551FC604AA0F4596B64,
 	EyeTracker_SetVisibility_m63966D6BFE77487A6FFB32C6FDC0D8149C28BE7C,
-	EyeTracker_Save_m02518FD99AE7787157CE35B7C0E62A06CB26297F,
-	EyeTracker_Load_mE53B8326BFF92FA989CC690194FAB15E44B8D233,
 	EyeTracker__ctor_mADB9C25EF0F9FC27B15B549661138F1A8BA75200,
 	EyeTrackContainer__ctor_m46FF4B34958FD9335F41955BA0FC1DECDF36BA67,
 	EyeTracking_Start_mA6AD2AD88B15951BC0F9A547F19F023BAF50B435,
@@ -117,6 +129,12 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	ListenerRotation_headAnglePlanB_m5C867ACB42D93FB5AB82CB575DEF79ADCC78C28C,
 	ListenerRotation_headAnglePlanC_m9B2964A09043C25A0C9239D984A6F7EC706BCC43,
 	ListenerRotation__ctor_m176EAE76B20444C469FB50C22911797C269E3A90,
+	Movement_Update_m52C5E564F403608D8AF654430FD64687E5AF6548,
+	Movement__ctor_m1611A5910E25AEB0A8B91660D64BABA1A91987B4,
+	PlacementOfObjectInPlane_Start_mA5B0A9D960630D0D496232037695AD56E8749731,
+	PlacementOfObjectInPlane_Update_m368C76A2A43036C25C91541E803025D13007F6C4,
+	PlacementOfObjectInPlane_PlaneChanged_mD233C95C42309BAA0A01966617BDE53BB2DB432F,
+	PlacementOfObjectInPlane__ctor_m1BD65022679E714EA800BC70F1999DAA728CB57B,
 	RotateCane_EnableGyro_mA3CEE74D23628227D3A12559840B94328637B7A6,
 	RotateCane_Update_mB925431C9BE295A0D1F53756A165358DBE9661D4,
 	RotateCane__ctor_m73006A9473C13EA2EEA8E3236DFB2C18F3CA1AE7,
@@ -128,32 +146,38 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	EnvironmentProbeVisualizer_Update_m23455585A83DB4D27356BCE38A7C7A18716CCA59,
 	EnvironmentProbeVisualizer__ctor_mB645BDCBF89D1091EDC7D96F7054DCB7FF1F6A95,
 };
-static const int32_t s_InvokerIndices[35] = 
+static const int32_t s_InvokerIndices[41] = 
 {
+	26,
 	23,
 	23,
 	23,
 	23,
-	1570,
+	23,
+	1582,
+	31,
+	23,
+	23,
+	23,
+	1582,
 	31,
 	23,
 	23,
 	23,
 	23,
 	23,
-	1570,
-	31,
-	23,
-	23,
-	23,
-	23,
-	23,
-	1069,
+	1074,
 	657,
 	657,
-	1893,
+	1905,
 	277,
-	1088,
+	1093,
+	23,
+	23,
+	23,
+	23,
+	23,
+	1906,
 	23,
 	23,
 	23,
@@ -170,7 +194,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	35,
+	41,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

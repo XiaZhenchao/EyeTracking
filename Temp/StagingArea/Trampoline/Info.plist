@@ -7,7 +7,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>UnityARFoundationFaceTrackV2</string>
+    <string>CaneMeasureMap</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
